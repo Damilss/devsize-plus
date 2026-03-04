@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		BC2B25542F57C6E80058DD21 /* devsize-plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devsize-plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC89535A2F57DA55007A6AFD /* devsize-plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devsize-plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8DB6132F57DD14008155E7 /* FSNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BC2B25562F57C6E80058DD21 /* devsize-plus */ = {
+		BC89535C2F57DA55007A6AFD /* devsize-plus */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "devsize-plus";
 			sourceTree = "<group>";
@@ -19,7 +20,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC2B25512F57C6E80058DD21 /* Frameworks */ = {
+		BC8953572F57DA55007A6AFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,83 +30,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC2B254B2F57C6E80058DD21 = {
+		BC8953512F57DA55007A6AFD = {
 			isa = PBXGroup;
 			children = (
-				BC2B25562F57C6E80058DD21 /* devsize-plus */,
-				BC2B25552F57C6E80058DD21 /* Products */,
+				BC8DB6122F57DD07008155E7 /* Models */,
+				BC89535C2F57DA55007A6AFD /* devsize-plus */,
+				BC89535B2F57DA55007A6AFD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BC2B25552F57C6E80058DD21 /* Products */ = {
+		BC89535B2F57DA55007A6AFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC2B25542F57C6E80058DD21 /* devsize-plus.app */,
+				BC89535A2F57DA55007A6AFD /* devsize-plus.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BC8DB6122F57DD07008155E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC8DB6132F57DD14008155E7 /* FSNode.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC2B25532F57C6E80058DD21 /* devsize-plus */ = {
+		BC8953592F57DA55007A6AFD /* devsize-plus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC2B255F2F57C6E90058DD21 /* Build configuration list for PBXNativeTarget "devsize-plus" */;
+			buildConfigurationList = BC8953652F57DA55007A6AFD /* Build configuration list for PBXNativeTarget "devsize-plus" */;
 			buildPhases = (
-				BC2B25502F57C6E80058DD21 /* Sources */,
-				BC2B25512F57C6E80058DD21 /* Frameworks */,
-				BC2B25522F57C6E80058DD21 /* Resources */,
+				BC8953562F57DA55007A6AFD /* Sources */,
+				BC8953572F57DA55007A6AFD /* Frameworks */,
+				BC8953582F57DA55007A6AFD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BC2B25562F57C6E80058DD21 /* devsize-plus */,
+				BC89535C2F57DA55007A6AFD /* devsize-plus */,
 			);
 			name = "devsize-plus";
 			packageProductDependencies = (
 			);
 			productName = "devsize-plus";
-			productReference = BC2B25542F57C6E80058DD21 /* devsize-plus.app */;
+			productReference = BC89535A2F57DA55007A6AFD /* devsize-plus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BC2B254C2F57C6E80058DD21 /* Project object */ = {
+		BC8953522F57DA55007A6AFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					BC2B25532F57C6E80058DD21 = {
+					BC8953592F57DA55007A6AFD = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = BC2B254F2F57C6E80058DD21 /* Build configuration list for PBXProject "devsize-plus" */;
+			buildConfigurationList = BC8953552F57DA55007A6AFD /* Build configuration list for PBXProject "devsize-plus" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = BC2B254B2F57C6E80058DD21;
+			mainGroup = BC8953512F57DA55007A6AFD;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = BC2B25552F57C6E80058DD21 /* Products */;
+			productRefGroup = BC89535B2F57DA55007A6AFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC2B25532F57C6E80058DD21 /* devsize-plus */,
+				BC8953592F57DA55007A6AFD /* devsize-plus */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BC2B25522F57C6E80058DD21 /* Resources */ = {
+		BC8953582F57DA55007A6AFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +125,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC2B25502F57C6E80058DD21 /* Sources */ = {
+		BC8953562F57DA55007A6AFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +135,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BC2B255D2F57C6E90058DD21 /* Debug */ = {
+		BC8953632F57DA55007A6AFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +198,7 @@
 			};
 			name = Debug;
 		};
-		BC2B255E2F57C6E90058DD21 /* Release */ = {
+		BC8953642F57DA55007A6AFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +253,7 @@
 			};
 			name = Release;
 		};
-		BC2B25602F57C6E90058DD21 /* Debug */ = {
+		BC8953662F57DA55007A6AFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -273,7 +283,7 @@
 			};
 			name = Debug;
 		};
-		BC2B25612F57C6E90058DD21 /* Release */ = {
+		BC8953672F57DA55007A6AFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC2B254F2F57C6E80058DD21 /* Build configuration list for PBXProject "devsize-plus" */ = {
+		BC8953552F57DA55007A6AFD /* Build configuration list for PBXProject "devsize-plus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC2B255D2F57C6E90058DD21 /* Debug */,
-				BC2B255E2F57C6E90058DD21 /* Release */,
+				BC8953632F57DA55007A6AFD /* Debug */,
+				BC8953642F57DA55007A6AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC2B255F2F57C6E90058DD21 /* Build configuration list for PBXNativeTarget "devsize-plus" */ = {
+		BC8953652F57DA55007A6AFD /* Build configuration list for PBXNativeTarget "devsize-plus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC2B25602F57C6E90058DD21 /* Debug */,
-				BC2B25612F57C6E90058DD21 /* Release */,
+				BC8953662F57DA55007A6AFD /* Debug */,
+				BC8953672F57DA55007A6AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BC2B254C2F57C6E80058DD21 /* Project object */;
+	rootObject = BC8953522F57DA55007A6AFD /* Project object */;
 }
